@@ -1,2 +1,2 @@
-# alfa-front.github.io
-Portfolio website
+# My portfolio website
+Please visit http://alfa-front.com
