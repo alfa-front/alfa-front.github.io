@@ -3,12 +3,12 @@
 body,
 html {
   display: table;
-  background: #242946;
   letter-spacing: 2px;
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   overflow: hidden;
   font-size: 16px;
   color: rgba(245, 248, 250, .5);
+  color: #FFF;
   padding: 0;
   margin: 0;
   height: 100%;
@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  background: url(../assets/front.jpg) no-repeat center fixed;
+  background-image: linear-gradient(56deg, #4A00FF 0%, #592571 100%);
   background-size: cover;
   padding: 0;
   margin: 0;
@@ -484,7 +484,6 @@ blockquote:after {
 
 @media all and (max-width:767px) {
   body {
-    background: url(../assets/front.jpg) center fixed;
     padding: 0;
     margin: 0;
     position: relative;
@@ -492,7 +491,6 @@ blockquote:after {
   body:after {
     content: "";
     position: absolute;
-    background: url(../assets/front.jpg) center fixed;
     padding: 0;
     margin: 0;
     position: relative;
