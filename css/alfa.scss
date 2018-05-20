@@ -1,3 +1,7 @@
+/*Variables*/
+
+$opacity-default: rgba(255, 255, 255, 1);
+
 /* Content */
 
 body, html {
@@ -149,10 +153,10 @@ body, html {
       text-decoration: none;
     }
     &.active a {
-      color: rgba(255, 255, 255, 1);
+      color: $opacity-default;
       position: relative;
       &:after {
-        color: rgba(255, 255, 255, 1);
+        color: $opacity-default;
         content: "";
         position: absolute;
         background: #dd3154;
@@ -165,7 +169,7 @@ body, html {
     }
     a {
       &:hover, &:focus {
-        color: rgba(255, 255, 255, 1);
+        color: $opacity-default;
       }
     }
   }
@@ -289,7 +293,7 @@ body, html {
       -o-transition: .5s;
       -ms-transition: .5s;
       transition: .5s;
-      opacity: 0.75;
+      opacity: 0.85;
     }
     .project-wrap {
       display: inline-block;
@@ -312,7 +316,7 @@ body, html {
         font-size: 12px;
         margin-top: 10px;
       }
-      color: rgba(255, 255, 255, 1);
+      color: $opacity-default;
       font-weight: 400;
       position: relative;
       z-index: 3;
@@ -412,7 +416,7 @@ body, html {
       letter-spacing: 6px;
       position: relative;
       &:hover {
-        color: rgba(255, 255, 255, 1);
+        color: $opacity-default;
       }
       &:after {
         transition: all .4s ease-in-out;
@@ -421,7 +425,7 @@ body, html {
         -o-transition: all .4s ease-in-out;
       }
       &:hover:after {
-        color: rgba(255, 255, 255, 1);
+        color: $opacity-default;
         content: "";
         position: absolute;
         background: #dd3154;
