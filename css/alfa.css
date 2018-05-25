@@ -1,6 +1,7 @@
 /*Variables*/
 /* Content */
-body, html {
+body,
+html {
   display: table;
   letter-spacing: 2px;
   font-family: 'Lato', Helvetica, Arial, sans-serif;
@@ -80,7 +81,7 @@ a {
 
 #menu {
   position: fixed;
-  background: rgba(16, 19, 33, 0.98);
+  background: rgba(84, 33, 150, 0.98);
   top: 0;
   left: 0;
   width: 100%;
