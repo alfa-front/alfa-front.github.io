@@ -1,6 +1,7 @@
 /*Variables*/
 
 $opacity-default: rgba(255, 255, 255, 1);
+$border-radius: 5px;
 /* Content */
 
 body,
@@ -295,6 +296,7 @@ li {
     -ms-transition: .5s;
     transition: .5s;
     opacity: 0.9;
+    border-radius: $border-radius;
   }
   .project-wrap {
     display: inline-block;
@@ -306,6 +308,7 @@ li {
     width: -moz-calc(100% - 20px);
     width: calc(100% - 20px);
     max-width: 650px;
+    border-radius: $border-radius;
     margin: 10px auto;
     padding: 10px;
     background: rgba(255, 255, 255, 0.05);
@@ -533,7 +536,7 @@ blockquote {
       font-weight: 300;
     }
     .project-wrap {
-      height: 75%;
+      height: 60%;
       margin: 10px 0;
       width: 100%;
     }
